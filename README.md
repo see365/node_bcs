@@ -105,23 +105,18 @@ Bcs.listObject(callback,null);
 
 
 
+
 function callback(err, data) {
 
     if (!err) {
-    
         console.log('Data: ');
-        
         console.log(data);
-        
     }
-    
     else {
-    
         console.log('Error: ');
         
         console.log(err);
     }
-    
     
 }
 
